@@ -32,6 +32,8 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
     >Just check if all essential devices work with the OS in the live boot.</br> 
     >Check wifi, bluetooth, speakers, headphones, graphics etc.
 9. If liveboot does not work try again after appending nomodeset=0 at the end of the linux line in the GRUB.
+    >For more info check this: </br>
+    >https://askubuntu.com/questions/747314/is-nomodeset-still-required#:~:text=Highlight%20the%20Ubuntu%20entry%20in,line%20%2D%20press%20F10%20to%20boot.&text=Generally%20it%20is%20recommended%20to,from%20the%20official%20Ubuntu%20repositories.
 10. Play around in the liveboot and once sure that everything works fine continue with the installation.
 11. In the installation, if you get an option for automatic partitioning i.e. the OS will handle allocation of memory to different partitions, you can go for it.
 12. However, in systems like Pop!\_OS, you have to go for a custom install i.e. make the partitions yourself:
@@ -57,5 +59,28 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
 </br>
 
 ## References:  
-- https://www.youtube.com/watch?v=hbzCSjlbInY
-- https://pop-planet.info/forums/threads/copy-the-microsoft-bootloader-into-pops-efi-beginners-guide.357/  
+- For Pop!\_OS:
+    - Complete tutorial:</br>
+         https://www.youtube.com/watch?v=hbzCSjlbInY
+         https://forum.bpgc-cte.org/d/111-dualboot-guide-faq-with-pop-os
+    - Add windows in the default bootloader of POp!\_OS:</br>
+         https://pop-planet.info/forums/threads/copy-the-microsoft-bootloader-into-pops-efi-beginners-guide.357/ 
+- For computers with Intel(RST): 
+    - https://discourse.ubuntu.com/t/ubuntu-installation-on-computers-with-intel-r-rst-enabled/15347
+- For general dualbooting:</br>
+    - https://itsfoss.com/install-ubuntu-dual-boot-mode-windows/
+    - https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/
+    - https://www.forbes.com/sites/jasonevangelho/2018/08/29/beginners-guide-how-to-install-ubuntu-linux/?sh=1b28ba6f951c
+- For NVIDIA Laptops:
+    - https://www.pugetsystems.com/labs/hpc/The-Best-Way-To-Install-Ubuntu-18-04-with-NVIDIA-Drivers-and-any-Desktop-Flavor-1178/
+    - https://www.reddit.com/r/Ubuntu/comments/b5tcf7/dualbooting_ubuntu_with_the_latest_nvidia/
+    - https://gist.github.com/bitsurgeon/b0f4440984c9e60dcd8fe8bbc346c029
+    - https://www.forbes.com/sites/jasonevangelho/2018/08/30/ubuntu-guide-how-to-install-nvidia-drivers-and-play-windows-games-on-linux/?sh=4ab8a17b3a2d
+</br>
+_Note:_</br>
+I was getting the below error for ubuntu-based Linux installations(except Pop!\_OS):
+```sh
+Failed to parse WDG method when booting
+```
+This error arises because the laptop hardware is too new for the old kernels used by Ubuntu. Hopefully this should be fixed in newer releases.</br>
+**To prevent this error try installing rolling release distros like arch, openSUSE, fedora, or POP!\_OS(if you want ubuntu based)**
