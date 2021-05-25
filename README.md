@@ -11,7 +11,7 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
 ## Important details that need to be checked before starting the dualboot procedure:  
 1. _SATA mode should be AHCI and nor RAID/IDE(E.g. Intel Rapid Storage Technology)_  
     >To check the SATA mode use Device Manager and check your storage drivers.</br>
-    >If the SATA mode is RAID, follow the belo link for conversion to AHCI: (do not use the ALT commands)</br>
+    >If the SATA mode is RAID, follow the below link for conversion to AHCI: (do not use the ALT commands)</br>
     >https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 2. _UEFI booting_
 3. _Secure Boot should be disabled_
