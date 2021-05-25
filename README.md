@@ -76,10 +76,10 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
     - https://www.reddit.com/r/Ubuntu/comments/b5tcf7/dualbooting_ubuntu_with_the_latest_nvidia/
     - https://gist.github.com/bitsurgeon/b0f4440984c9e60dcd8fe8bbc346c029
     - https://www.forbes.com/sites/jasonevangelho/2018/08/30/ubuntu-guide-how-to-install-nvidia-drivers-and-play-windows-games-on-linux/?sh=4ab8a17b3a2d
-</br>
+
 _Note:_</br>
-I was getting the below error for ubuntu-based Linux installations(except Pop!\_OS):
-```sh
+I was getting the below error for ubuntu-based Linux installations(except Pop!\_OS): </br>
+```console
 Failed to parse WDG method when booting
 ```
 This error arises because the laptop hardware is too new for the old kernels used by Ubuntu. Hopefully this should be fixed in newer releases.</br>
