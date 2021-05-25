@@ -26,7 +26,7 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
     >Shrink the drive that has free space.
 5. Restart the system.
 6. Tap f12.
-7. Boot using the USB.
+7. Choose the boot media as the boot option in the GRUB screen.
 8. Try liveboot first to check if preinstalled nvidia drivers are working.
     >This is not needed for Pop!\_OS. It already has Nvidia drivers installed.</br>
     >Just check if all essential devices work with the OS in the live boot.</br> 
