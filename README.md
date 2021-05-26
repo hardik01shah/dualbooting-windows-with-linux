@@ -61,7 +61,7 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
 ## References:  
 - For Pop!\_OS:
     - Complete tutorial:</br>
-         https://www.youtube.com/watch?v=hbzCSjlbInY</br>
+         https://www.youtube.com/watch?v=hbzCSjlbInY (This has uninstallation instructions too)</br>
          https://forum.bpgc-cte.org/d/111-dualboot-guide-faq-with-pop-os
     - Add windows in the default bootloader of POp!\_OS:</br>
          https://pop-planet.info/forums/threads/copy-the-microsoft-bootloader-into-pops-efi-beginners-guide.357/ 
