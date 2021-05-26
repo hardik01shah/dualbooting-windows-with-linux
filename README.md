@@ -43,7 +43,7 @@ This is a guide for dualbooting your laptop with a linux based os. I made this r
     >3. root - whatever space remains (ext4)</br>
     >A further /home partition can be added but it is optional. That too will be ext4.  
 13. Systems like Pop!\_OS won't have GRUB as the bootloader, instead they have systemd. 
-    >To install GRUB on a Pop!\OS installation follow this link:</br>
+    >To install GRUB on a Pop!\_OS installation follow this link:</br>
     >https://jacci.net/linux/pop-os/how-to-install-grub-on-pop-os-20-04/ 
 
 ## Steps to remove OS from dualboot:
